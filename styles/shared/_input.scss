@@ -1,0 +1,13 @@
+.input {
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  width: 35rem;
+
+  &::placeholder {
+    color: #d6d6d6;
+  }
+  &.search {
+    width: 27rem;
+  }
+}

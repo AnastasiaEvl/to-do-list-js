@@ -1,0 +1,51 @@
+.container {
+  background-color: #f0f3f9;
+  border-radius: $border-radius;
+  padding: 0 3rem 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem
+  }
+
+  .statistic-inf {
+    padding: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: $text-color;
+  }
+  .task-block {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    transition: 0.5s;
+  }
+
+  .task-active {
+    background-color: #929292;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .add-task-form{
+    display: flex;
+    gap:1rem;
+  }
+  .error{
+    position: absolute;
+    right: 40rem;
+    padding-top: 1rem;
+    color: red;
+    font-weight: bold;
+  }
+
+}

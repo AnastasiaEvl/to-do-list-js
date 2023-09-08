@@ -1,0 +1,26 @@
+.task-inf {
+  background-color: white;
+  text-align: center;
+  color: $text-color;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 40rem;
+  align-self: center;
+  font-size: 1.2rem;
+
+  &.date {
+    padding: 0.5rem;
+    width: 10rem;
+    height: fit-content;
+    position: relative;
+    top: 1rem;
+    left: 3.5rem;
+  }
+  &.done{
+    text-decoration: line-through;
+    text-decoration-color:red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 0.15rem;
+  }
+}

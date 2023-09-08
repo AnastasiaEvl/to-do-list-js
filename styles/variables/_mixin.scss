@@ -1,0 +1,7 @@
+@mixin hover{
+  background-color: $bkg-color-btn-hover;
+  transition: 0.6s;
+  border: 2px solid $bkg-color-hover-text-border;
+  color: $bkg-color-hover-text-border;
+  cursor: pointer;
+}

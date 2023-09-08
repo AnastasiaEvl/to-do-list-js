@@ -1,0 +1,22 @@
+.circle {
+  background-color: #807fd4;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  left: 40%;
+  top: -8%;
+
+  &.left {
+    left: -5%;
+    top: 10%;
+
+    &.left .dark-circle{
+      background-color: #d5d5d5;
+    }
+  }
+  &.dark-circle{
+    background-color: #d5d5d5;
+  }
+}
